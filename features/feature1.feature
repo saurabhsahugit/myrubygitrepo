@@ -4,3 +4,7 @@ The objective of this feature is to learn about git and its branching strategies
 New line 2
 
 Scenario: This is the first scenario in this feature
+
+Given
+When
+Then
