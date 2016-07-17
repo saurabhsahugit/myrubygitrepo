@@ -5,6 +5,6 @@ New line 2
 
 Scenario: This is the first scenario in this feature
 
-Given
-When
-Then
+Given that
+When I 
+Then do
