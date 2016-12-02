@@ -2,4 +2,4 @@ dependencies:
   pre:
     - wget https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/2.2.3/gatling-charts-highcharts-bundle-2.2.3-bundle.zip
     - unzip gatling-charts-highcharts-bundle-2.2.3-bundle.zip
-    - /home/ubuntu/myrubygitrepo/gatling-charts-highcharts-bundle-2.2.3/bin/gatling.sh -sf ../user-files/simulations
+    - /home/ubuntu/myrubygitrepo/gatling-charts-highcharts-bundle-2.2.3/bin/gatling.sh -sf ../user-files/simulations -s RecordedSimulation
