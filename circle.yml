@@ -5,6 +5,6 @@ dependencies:
   post: 
     - unzip gatling-charts-highcharts-bundle-2.2.3-bundle.zip
 
-  test:
-    override:
-      - /home/ubuntu/myrubygitrepo/gatling-charts-highcharts-bundle-2.2.3/bin/gatling.sh -sf ../user-files/simulations -s RecordedSimulation -rf $CIRCLE_ARTIFACTS
+test:
+  override:
+    - /home/ubuntu/myrubygitrepo/gatling-charts-highcharts-bundle-2.2.3/bin/gatling.sh -sf ../user-files/simulations -s RecordedSimulation -rf $CIRCLE_ARTIFACTS
